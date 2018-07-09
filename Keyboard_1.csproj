@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A00B52B7-9C2B-47EA-AE8D-F21328113558}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Keyboard_1</RootNamespace>
+    <AssemblyName>Keyboard_1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InputSimulator_Modified">
+      <HintPath>InputSimulator_Modified\InputSimulator_Modified.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Alna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Amien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Antagonisticclitic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Athus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Azium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Barim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Barta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Chrism.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Clitic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Comma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Cooperativeclitic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Dexin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Dolus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Dualclitic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Efelid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Eshna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Esis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Exo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Fearon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Gamin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Harux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Haxt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ilunum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ixium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Jensis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Jyam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Jzhad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Kanora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Karthon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Kehta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Lodus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Memon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Nefron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Nexus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Nonum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Oberon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ocillum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Odium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ojium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Opsen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ortheks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Parsus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Payter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Period.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Pholim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Ris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Seto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Suden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Thatus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Toma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Tris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Tyel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Urna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Usis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Uviel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Uzion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Venik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Vex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Wiron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Yalta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyDown_Yamen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Memon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_BackPlate_NoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_Gradient_NoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_KeyDown_NoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_KeyUp_NoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aderHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alnaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amienHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antagonisticCliticHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\athusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aziumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspaceHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barimHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bartaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrismHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circleHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliticHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooperativeCliticHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dexinHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamondHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dualCliticHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\efelidHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eshnaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esisHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fearonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gaminHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haruxHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haxtHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ilunumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ixiumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jensisHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jyamHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jzhadHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kanoraHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karthHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kehtaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lodusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nefronHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nexusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nonumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oberonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ocillumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odiumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojiumHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opsenHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ortheksHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parsusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payterHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\periodHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pholimHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squareHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sudenHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thatusHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trisHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyelHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urnaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usisHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uvielHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzionHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venikHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vexHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wironHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaltaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yamenHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Alna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Amien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Asterix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Athus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Azium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Backward_Slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Barta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Close_Parenthesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Close_Pointed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Close_Square_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Closed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Dolus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Efelid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Equals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Esis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Exo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Fearon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Forward_Slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Gamin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Harux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Haxt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ilunum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ixium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Jyam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Jzhad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Kanora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Karthon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Kehta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Lodus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Memon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Nefron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Nonum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Oberon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ocillum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ojium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Open_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Open_Parenthesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Open_Pointed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Open_Square_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Opsen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ortheks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Payter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Percent_Sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Ris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Seto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Suden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Tilda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Toma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Tris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Tyel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Under_Score.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Urna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Usis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Uviel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Uzion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Vex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Wiron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyUp_Yalta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Alna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Amien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Asterix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Athus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Azium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Backward_Slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Barta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Close_Parenthesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Close_Pointed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Close_Square_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Closed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Dolus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Efelid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Equals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Esis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Exo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Fearon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Forward_Slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Gamin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Harux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Haxt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ilunum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ixium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Jyam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Jzhad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Kanora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Karthon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Kehta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Lodus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Memon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Nefron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Nonum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Oberon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ocillum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ojium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Open_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Open_Parenthesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Open_Pointed_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Open_Square_Bracket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Opsen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ortheks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Payter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Percent_Sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Ris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Seto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Suden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Tilda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Toma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Tris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Tyel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Under_Score.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Urna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Usis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Uviel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Uzion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Vex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Wiron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capital_KeyDown_Yalta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_KeyDown_Maxima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Keyboard_Small_KeyUp_Maxima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_Hover_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_Hover_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_Hover_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_Hover_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_KeysDown_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_KeysDown_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_KeysDown_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_KeysDown_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_KeysUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_Mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_Underlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows_Small_Mask_ff00ff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ex.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
