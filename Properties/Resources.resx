@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="keyDown_Ader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Alna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Alna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Amien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Amien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Antagonisticclitic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Antagonisticclitic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Athus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Athus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Azium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Azium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Backspace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Backspace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Barim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Barim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Barta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Barta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Chrism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Chrism.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Clitic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Clitic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Comma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Comma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Cooperativeclitic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Cooperativeclitic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Dexin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Dexin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Dolus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Dolus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Dualclitic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Dualclitic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Efelid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Efelid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Eshna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Eshna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Esis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Esis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Exo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Exo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Fearon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Fearon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Gamin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Gamin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Harux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Harux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Haxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Haxt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ilunum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ilunum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ixium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ixium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Jensis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Jensis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Jyam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Jyam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Jzhad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Jzhad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Kanora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Kanora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Karthon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Karthon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Kehta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Kehta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Lodus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Lodus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Memon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Memon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Nefron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Nefron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Nexus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Nexus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Nonum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Nonum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Oberon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Oberon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ocillum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ocillum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Odium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Odium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ojium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ojium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Opsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Opsen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ortheks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ortheks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Parsus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Parsus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Payter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Payter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Period" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Period.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Pholim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Pholim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Ris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Ris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Seto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Seto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Sola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Sola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Suden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Suden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Thatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Thatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Toma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Toma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Tris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Tris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Tyel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Tyel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Urna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Urna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Usis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Usis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Uviel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Uviel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Uzion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Uzion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Venik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Venik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Vex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Vex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Wiron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Wiron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Yalta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Yalta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyDown_Yamen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyDown_Yamen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Memon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Memon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_BackPlate_NoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_BackPlate_NoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_Gradient_NoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_Gradient_NoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_KeyDown_NoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_KeyDown_NoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_KeyUp_NoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_KeyUp_NoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aderHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aderHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alnaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alnaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amienHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amienHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="antagonisticCliticHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\antagonisticCliticHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="athusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\athusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aziumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aziumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backspaceHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backspaceHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barimHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barimHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bartaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bartaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrismHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrismHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circleHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circleHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliticHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cliticHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cooperativeCliticHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooperativeCliticHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deleteHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deleteHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dexinHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dexinHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamondHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamondHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dolusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dolusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dualCliticHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dualCliticHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="efelidHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\efelidHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eshnaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eshnaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esisHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esisHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fearonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fearonHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gaminHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gaminHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haruxHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haruxHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haxtHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haxtHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ilunumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ilunumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ixiumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ixiumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jensisHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jensisHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jyamHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jyamHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jzhadHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jzhadHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kanoraHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kanoraHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karthHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karthHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kehtaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kehtaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lodusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lodusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memonHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nefronHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nefronHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nexusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nexusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nonumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nonumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oberonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oberonHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocillumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ocillumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odiumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\odiumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojiumHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojiumHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opsenHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opsenHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ortheksHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ortheksHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parsusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parsusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payterHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payterHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="periodHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\periodHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pholimHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pholimHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="risHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\risHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squareHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squareHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sudenHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sudenHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thatusHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thatusHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trisHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trisHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tyelHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tyelHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="urnaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\urnaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usisHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usisHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uvielHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uvielHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uzionHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uzionHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="venikHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\venikHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vexHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vexHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wironHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wironHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yaltaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yaltaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yamenHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yamenHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Alna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Alna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Amien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Amien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Asterix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Asterix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Athus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Athus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Azium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Azium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Backspace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Backspace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Backward_Slash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Backward_Slash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Barta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Barta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Closed_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Closed_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Close_Parenthesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Close_Parenthesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Close_Pointed_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Close_Pointed_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Close_Square_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Close_Square_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Dolus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Dolus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Efelid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Efelid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Equals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Equals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Esis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Esis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Exo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Exo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Fearon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Fearon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Forward_Slash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Forward_Slash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Gamin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Gamin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Harux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Harux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Haxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Haxt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ilunum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ilunum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ixium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ixium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Jyam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Jyam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Jzhad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Jzhad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Kanora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Kanora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Karthon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Karthon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Kehta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Kehta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Lodus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Lodus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Memon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Memon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Nefron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Nefron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Nonum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Nonum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Oberon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Oberon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ocillum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ocillum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ojium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ojium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Open_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Open_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Open_Parenthesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Open_Parenthesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Open_Pointed_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Open_Pointed_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Open_Square_Bracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Open_Square_Bracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Opsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Opsen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ortheks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ortheks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Payter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Payter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Percent_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Percent_Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Ris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Ris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Seto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Seto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Sola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Sola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Suden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Suden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Tilda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Tilda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Toma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Toma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Tris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Tris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Tyel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Tyel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Under_Score" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Under_Score.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Urna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Urna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Usis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Usis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Uviel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Uviel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Uzion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Uzion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Vex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Vex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Wiron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Wiron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capital_KeyDown_Yalta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capital_KeyDown_Yalta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_KeyDown_Maxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_KeyDown_Maxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Keyboard_Small_KeyUp_Maxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Keyboard_Small_KeyUp_Maxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows_Hover_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows_Hover_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows_Hover_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows_Hover_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows_Hover_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows_Hover_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows_Hover_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows_Hover_Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_KeysDown_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_KeysDown_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_KeysDown_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_KeysDown_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_KeysDown_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_KeysDown_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_KeysDown_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_KeysDown_Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_KeysUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_KeysUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_Mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_Mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_Underlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_Underlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows_Small_Mask_ff00ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows_Small_Mask_ff00ff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ex.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
